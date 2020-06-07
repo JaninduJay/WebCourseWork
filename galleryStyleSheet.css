@@ -1,0 +1,176 @@
+/* default margins and paddings has been set to zero*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	min-width:1200px;
+}
+
+
+.logo img {
+	padding:0;
+	margin: 0 0 0 30px;
+	width: 100px;
+	height: 100px;
+	position:absolute;
+}
+
+.navDiv {	
+	background-color:black;
+	height:100px;
+
+}
+
+.navBar ul {
+	
+	float:right;
+	margin: 0 0 0 0;
+	padding: 0;
+	list-style: none;
+	font-family: arial;
+	
+}
+
+.navBar ul li {
+	float:left;
+	height: 40px;
+	line-height: 40px;
+	width: 230px;
+	background-color: grey;
+	margin-right: 2px;
+	text-align: center;
+	
+}
+
+.navBar ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.navBar ul li a:hover {
+	background-color: green;
+	display:absolute;
+}
+
+.navBar ul li ul li{
+	display: none;
+	opacity: 0.8;
+}
+
+.navBar ul li:hover ul li {
+	display: block;
+}
+
+.colorChange {
+	text-align:right;
+	font-size:20px;
+	padding:15px;
+}
+
+.colorSelection {
+	display:inline;
+	padding:20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.split {
+	margin-top:50px;
+	float: left;
+	height: 600px;
+	
+}
+
+.left {
+	width:18%;
+}
+
+.center {
+	width:20%;	
+}
+
+.right {
+	width:45%;
+	margin-left:200px;
+}
+
+
+.mainImageDiv {
+	margin-left:10px;
+	width: 500px; 
+	height: 400px;
+	position:relative;
+	border: solid 4px grey;
+}
+
+.mainImage {
+	width: 500px; 
+	height: 400px;
+}
+
+.mainDescription {
+	top:0px;
+	width:100%;
+	color:black;
+	position:absolute;
+	background-color: #EBFBFF;
+	opacity: 0.5;
+	text-align: center;
+}
+
+.description {
+	top:0px;
+	width:100%;
+	color:black;
+	position:absolute;
+	background-color: #EBFBFF;
+	opacity: 0.5;
+	text-align: center;
+}
+
+.imagesList {
+	height: 200px;
+	position:relative;
+	width: 200px;
+}
+
+.imgClass {
+	height: 200px;
+	width: 200px;
+	border-top:solid 3px grey;
+}
+	
+.imagesList:hover {
+	height:200px;
+}
+	
+.imgClass:hover {
+	border:solid 4px grey;
+
+}
+
+.imagesList {
+	margin-left:150px;
+}
+
+footer {	
+	margin-top:10px;
+	background-color: black;
+	clear: both;
+	padding:20px;
+	height: 200px;
+	color: white;
+	
+}
+
+.developedBy {
+	text-align:right;
+}
